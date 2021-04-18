@@ -22,7 +22,7 @@ function GetFormatedDay(fm) {
 }
 
 
-function GET_FORMATTED_TIME(fm) {
+function GetFormattedDay(fm) {
 
     let format = !fm ?  ':' : fm;
     let date = new Date();
