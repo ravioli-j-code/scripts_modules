@@ -1,4 +1,4 @@
-function GetFormatedDay(fm) {
+function GetFormattedDate(fm) {
 
     let format = !fm ?  '' : fm;
     let date = new Date();
