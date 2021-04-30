@@ -1,0 +1,53 @@
+.sideNav {
+  position: absolute;
+  left: calc( 50% + 600px);
+  top: calc( 100% - 466px);
+}
+
+.sideNav a {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  letter-spacing: -1px;
+  text-align: center;
+  -webkit-transition: color 0.15s ease 0s, opacity 0.15s ease 0s;
+  transition: color 0.15s ease 0s, opacity 0.15s ease 0s;
+  opacity: 0.9;
+}
+
+.sideNav a:hover, .sideNav a:focus {
+  color: #000;
+  opacity: 1;
+}
+
+.sideNav .buying:before, .sideNav .openChat:before, .sideNav .chatBot:before, .sideNav .remoteCS:before {
+  display: block;
+  content: "";
+  width: 64px;
+  height: 64px;
+  margin: 10px 0 5px 0;
+  border-radius: 32px;
+  background: #999 url(../images/sideNav.png) no-repeat center -3px;
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.sideNav .openChat:before {
+  background-position-y: -74px;
+}
+
+.sideNav .chatBot:before {
+  background-position-y: -143px;
+}
+
+.sideNav .remoteCS:before {
+  background-position-y: -214px;
+}
+
+.sideNav .btnTop {
+  font-size: 0;
+  height: 26px;
+  margin-top: 14px;
+  border: solid 1px #ccc;
+  background: #fff url(../images/sideNav.png) no-repeat center -287px;
+}
