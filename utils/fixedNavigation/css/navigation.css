@@ -1,3 +1,11 @@
+
+.container {
+  width: 50%;
+  min-width: 600px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
 .sideNav {
   position: absolute;
   left: calc( 50% + 600px);
@@ -20,7 +28,7 @@
   opacity: 1;
 }
 
-.sideNav .buying:before, .sideNav .openChat:before, .sideNav .chatBot:before, .sideNav .remoteCS:before {
+.sideNav .map:before, .sideNav .openChat:before, .sideNav .chatBot:before, .sideNav .remoteCS:before {
   display: block;
   content: "";
   width: 64px;
